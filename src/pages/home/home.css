@@ -1,0 +1,280 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.postList {
+  margin: 10%;
+  width: 80%;
+}
+
+.postList article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  padding: 5%;
+
+  background: #fff;
+
+  border-radius: 8px;
+
+  margin: 1.5rem 0;
+}
+
+.postList article .autor {
+  font-size: 1rem;
+  margin-bottom: 2px;
+  color: #580763;
+  font-weight: 700;
+}
+
+.postList article .line {
+  background: #ddd;
+  width: 80%;
+  height: 1px;
+}
+
+.postList article .title {
+  margin: auto;
+  color: #000000;
+  padding: 3%;
+  width: 75%;
+  font-size: 1rem;
+}
+
+.postList article p {
+  margin: auto;
+  padding: 3%;
+  width: 75%;
+  font-size: 0.75rem;
+}
+
+.postList article .btnViewComments {
+  margin: 2% auto;
+
+  background-color: #580763;
+  color: #fff;
+
+  font-size: 0.75rem;
+
+  cursor: pointer;
+
+  width: 70%;
+  height: 2.75rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+
+  border-radius: 8px;
+}
+
+.comments {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-height: 100vh;
+  max-height: auto !important;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  padding: 5%;
+
+  background: #fff;
+
+  border-radius: 8px;
+}
+
+.comment {
+  width: 100%;
+}
+
+.comments .comment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 90%;
+
+  margin-top: 1rem;
+}
+
+.comments .comment-header span {
+  font-size: 0.75rem;
+  color: #580763;
+}
+
+.comments svg {
+  height: 1.5rem;
+  color: #580763;
+  font-weight: 700;
+  position: absolute;
+  right: 0.75rem;
+  top: 0.75rem;
+}
+
+.line {
+  width: 100%;
+}
+
+.comments .comment-body {
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+.comments .comment-body p {
+  font-size: 0.75rem;
+  color: #000000;
+  float: left;
+  margin-bottom: 0.25rem;
+}
+
+.disable {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .postList article {
+    padding: 3%;
+  }
+
+  .postList {
+    margin: 5%;
+  }
+
+  .postList article {
+    justify-content: center;
+  }
+
+  .postList article .autor {
+    font-size: 1.25rem;
+  }
+
+  .postList article .title {
+    padding: 1%;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  .postList article p {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .postList article .btnViewComments {
+    font-size: 1rem;
+  }
+
+  .comments .comment-header span {
+    font-size: 1.25rem;
+  }
+
+  .comments svg {
+    height: 2rem;
+  }
+
+  .comments .comment-body p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .postList article {
+    justify-content: center;
+  }
+
+  .postList article .autor {
+    font-size: 1.5rem;
+  }
+
+  .postList article .title {
+    padding: 1%;
+    font-size: 1.5rem;
+  }
+
+  .postList article p {
+    text-align: center;
+    font-size: 1.25rem;
+    text-align: left;
+  }
+
+  .postList article .btnViewComments {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .postList article .autor {
+    font-size: 2rem;
+  }
+
+  .postList article .title {
+    font-size: 1.75rem;
+  }
+
+  .postList article p {
+    font-size: 1.5rem;
+  }
+
+  .postList article .btnViewComments {
+    font-size: 1.75rem;
+    height: 3.5rem;
+  }
+
+  .comments .comment-header span {
+    font-size: 1.75rem;
+  }
+
+  .comments svg {
+    height: 2.75rem;
+  }
+
+  .comments .comment-body p {
+    font-size: 1.5rem;
+  }
+
+  .comments div {
+    float: left;
+  }
+}
+
+@media (min-width: 2560px) {
+  .postList article .autor {
+    font-size: 3rem;
+  }
+
+  .postList article .title {
+    font-size: 2.25rem;
+  }
+
+  .postList article p {
+    font-size: 2rem;
+  }
+
+  .postList article .btnViewComments {
+    font-size: 3rem;
+    height: 5rem;
+  }
+
+  .comments .comment-header span {
+    font-size: 4rem;
+  }
+
+  .comments svg {
+    height: 8rem;
+  }
+
+  .comments .comment-body p {
+    font-size: 3rem;
+  }
+}

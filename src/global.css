@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 62, 5%;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(45deg, #000, #ca92d1, #c318da, #000);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.line {
+  background: #ddd;
+  width: 80%;
+  height: 1px;
+}

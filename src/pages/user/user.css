@@ -1,0 +1,127 @@
+.container-perfil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.line {
+  width: 100%;
+}
+
+.perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  background: #fff;
+
+  border-radius: 8px;
+
+  margin: 0.5rem 0;
+
+  height: 85vh;
+  width: 80%;
+}
+
+.perfil .title-section {
+  color: #580763;
+  font-size: 1rem;
+  margin: 0.5rem 0 0 0.5rem;
+}
+
+.perfil .information {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.25rem;
+  color: #580763;
+  font-size: 0.75rem;
+}
+
+.perfil .information label {
+  margin-bottom: 0.25rem;
+}
+
+.perfil .information input {
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+  border: none;
+}
+
+.par {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.field {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .perfil {
+    padding: 2%;
+  }
+
+  .perfil .title-section {
+    font-size: 1.25rem;
+    margin: 0 0 0 0.5rem;
+  }
+
+  .perfil .information {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .perfil .information input {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .perfil .title-section {
+    font-size: 2rem;
+    margin: 0 0 0 0.5rem;
+  }
+
+  .perfil .information {
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+  }
+
+  .perfil .information input {
+    font-size: 1.5rem;
+  }
+  .field {
+    gap: 0.25rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .perfil .title-section {
+    font-size: 4rem;
+  }
+
+  .line {
+    height: 4px;
+  }
+
+  .perfil .information {
+    margin-bottom: 3rem;
+    font-size: 3.5rem;
+  }
+
+  .perfil .information input {
+    font-size: 2.75rem;
+    margin-bottom: 1.25rem;
+  }
+  .field {
+    gap: 0.25rem;
+  }
+}
