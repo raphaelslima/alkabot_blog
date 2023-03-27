@@ -2,7 +2,7 @@
 
 ## Como executar a aplicação ?
 
-1. Clicar no link da aplicação públicada:
+1.0 Clicar no link da aplicação públicada:
 
 <br>
 
