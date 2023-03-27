@@ -26,6 +26,15 @@
   width: 80%;
 }
 
+svg {
+  height: 5%;
+  color: #580763;
+  font-weight: 700;
+  position: absolute;
+  right: 12%;
+  top: 15%;
+}
+
 .perfil .title-section {
   color: #580763;
   font-size: 1rem;
