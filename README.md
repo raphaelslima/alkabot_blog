@@ -10,7 +10,7 @@ Link:
 
 <br>
 
-2. Rodar na sua propria maquina:
+2.0 Rodar na sua propria maquina:
 
 <br>
 
