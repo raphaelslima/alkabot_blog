@@ -2,7 +2,7 @@
 
 ## Como executar a aplicação ?
 
-1.0 Clicar no link da aplicação públicada:
+1.0 Clicar no link da hospedagem:
 
 <br>
 
@@ -46,15 +46,15 @@ Link:
 
 ## Sobre a aplicação:
 
-Meu primeiro passo para a construção da aplicação foi fazer o meu planejamento, pesquisei sobre blogs famosos para me basear neles para montar meu layout, pois pensando em usabilidade os usuários tem uma melhor experiência com sistemas que possuem um padrão que estão acostumados a navegar, pensando nisso me inspirei no Instagram, mas não fiz um clone apliquei minha criatividade nesse desafio.
+Meu primeiro passo para a construção da aplicação foi fazer o meu planejamento, pesquisei sobre blogs famosos para me basear neles para montar meu layout, pois pensando em usabilidade os usuários tem uma melhor experiência com sistemas que possuem um padrão que estão acostumados a navegar, pensando nisso me inspirei no Instagram, mas não fiz um clone, apliquei minha criatividade nesse desafio.
 
  <br>
 
-Em seguida, escolhi as tecnologias que iria utilizar, escolhi o ReactJS, pois na minha opinião o Framework de melhor compatibilidade com o JavaScript, possui uma ótima performasse na parte de renderização e proporciona uma melhor produtividade no desenvolvimento. Além disso, escolhi o Axios pela facilidade e compatibilidade de navegadores.
+Em seguida, escolhi as tecnologias que iria utilizar, escolhi o ReactJS, pois na minha opinião é o Framework de melhor compatibilidade com o JavaScript, possui uma ótima performasse na parte de renderização e proporciona uma melhor produtividade no desenvolvimento. Além disso, escolhi o Axios pela facilidade e compatibilidade de navegadores.
 
 <br>
 
-Por fim, desenvolvi a aplicação usando a técnica de mobile first e criando o layout de forma mais fluida possível e manipulando os dados da forma que eu acredito que irá dar a melhor experiencia para o usuário.
+Por fim, desenvolvi a aplicação seguindo o layout e usando a técnica de mobile first e criando o layout de forma mais fluida possível e manipulando os dados da API da forma que eu acredito que irá dar a melhor experiencia para o usuário.
 
 ## Contato para Feedback:
 
